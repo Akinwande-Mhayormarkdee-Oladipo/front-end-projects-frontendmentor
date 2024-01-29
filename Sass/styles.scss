@@ -1,0 +1,47 @@
+//variables
+
+$White: hsl(0, 0%, 100%);
+$Lightgray: hsl(212, 45%, 89%);
+$Grayishblue: hsl(220, 15%, 55%);
+$Darkblue: hsl(218, 44%, 22%);
+
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: $Lightgray;
+    height: 100vh;
+    align-items: center;
+    font-family:'Outfit','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#box{
+    background-color: white;
+    border: 1px hidden;
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    align-self:center;
+    text-align: center;
+    
+    h1{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    p{
+        font-size: 15px;
+        color: $Grayishblue;
+        padding: 0;
+        margin: 5px 20px 30px 25px;
+        
+    }
+
+    img {
+        width: 100%; /* or any custom size */
+        height: 100%; 
+        object-fit: contain;
+        border-radius: 20px;
+    }
+}
